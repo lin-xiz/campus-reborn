@@ -2,17 +2,17 @@
 <html lang="zh-CN">
 <head>
   <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#a5352c">
-  <meta name="description" content="一场关于换位思考的校园重生游戏。抽取身份，经历三个选择，再从另一个人的视角重来。">
+  <meta name="theme-color" content="#f8f6ee">
+  <meta name="description" content="清晨醒来，成为食堂阿姨、保洁人员、辅导员、教授、讲师或图书管理员。六种身份、三十段日常，在选择中思考人生目的、人生态度与人生价值。">
   <title>另一天 · 校园重生计划</title>
   <link rel="icon" href="icon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="style.css">
-  <script src="story.js" defer></script><script src="app.js" defer></script>
+  <link rel="stylesheet" href="style.css?v=3">
+  <script src="story.js?v=3" defer></script><script src="portraits.js?v=3" defer></script><script src="ui.js?v=3" defer></script><script src="app.js?v=3" defer></script>
 </head>
 <body>
-  <header class="header"><a class="brand" href="#" data-action="home" aria-label="另一天首页"><span class="brand-mark">↺</span>另一天<span class="brand-sub">校园重生计划</span></a><nav aria-label="主导航"><button class="nav-btn" data-action="home">故事大厅</button><button class="nav-btn" data-action="teacher">课堂放映室 <span>↗</span></button></nav></header>
+  <header class="header"><a class="brand" href="#" data-action="home" aria-label="另一天首页"><span class="brand-mark">☀</span>另一天<span class="brand-sub">校园重生计划</span></a><nav aria-label="主导航"><button class="nav-btn" data-action="home">故事大厅</button><button class="nav-btn" data-action="teacher">课堂放映室 <span>↗</span></button></nav></header>
   <main id="app" tabindex="-1"></main>
-  <footer><span>另一天 / ANOTHER DAY</span><span>虚构校园故事 · 理解，从另一个视角开始</span><button class="text-btn" data-action="about">玩法与数据说明</button></footer>
+  <footer><span>另一天 / ANOTHER DAY</span><span>每一份平凡，都与我们有关。</span><button class="text-btn" data-action="about">玩法与数据说明</button></footer>
   <div id="toast" role="status" aria-live="polite"></div>
   <dialog id="modal"><div id="modal-content"></div><button class="primary" data-action="close">知道了</button></dialog>
   <input type="file" id="import-file" accept="application/json,.json" multiple hidden>
